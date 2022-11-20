@@ -4,16 +4,16 @@ import Meet from '../components/meet';
 
 function Teams() {
 	return (
-		<div className="body">
-			<div id="body">
-				<div id="first">
-					<div id="first-h1">
+		<div className="body-10123">
+			<div id="body-10234">
+				<div id="first-10123">
+					<div id="second-10123">
 						<h1>
 							Tech 101, A functional system, internet access and...
-							<span id="bold">DevAsk</span>
+							<span id="bold-10123">DevAsk</span>
 						</h1>
 					</div>
-					<p id="para">
+					<p id="para-10123">
 						We are a team of coders and designers passionate about seeing the
 						glow return to your face when you finally resolve that week-old bug.
 						Panda grey, Lee me A. Lone, and I were interns at HNGi9 and every
@@ -23,7 +23,7 @@ function Teams() {
 						ourselves cut down the time spent debugging instead ship innovative
 						products 10x better.
 					</p>
-					<div id="border" />
+					<div id="border-10123" />
 					<Meet />
 				</div>
 			</div>

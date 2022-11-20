@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
-.body{
+.body-10123{
     max-width: 100%;
     width: 100%;
     padding: 0px;
     margin: 0px;
     background: #FFFFFF;
 }
-#body{
+#body-10234{
   width: 90%;
   display: flex;
   flex-direction: column;
@@ -18,19 +18,19 @@
 
 
 
-#border{
+#border-10123{
     margin-top: 4%;
-    border: 0.5px solid #BBBBFF;
+    border: 1px solid #E8E8FF;
 }
-#first-h1{
+#second-10123{
     background:  #1D1DD8 ;
     border-radius: 17px;
     
 }
-#bold{
+#bold-10123{
     font-weight: bold;
 }
-#first-h1>h1{
+#second-10123 > h1{
     
     font-family: 'Rubik';
     font-style: normal;
@@ -46,7 +46,7 @@
     padding: 3%;
 
 }
-#para{
+#para-10123{
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
@@ -60,11 +60,11 @@
 }
 
 
-#team{
+#team-10123{
     justify-content: center;
     text-align: center;
 }
-#hala{
+#hala-10123{
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
@@ -72,7 +72,7 @@
     line-height: 72px;
     margin-bottom: 3%;
 }
-#duh{
+#duh-10123{
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
@@ -84,7 +84,7 @@
     margin-top: 4%;
 
 }
-#blue{
+#blue-10123{
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 600;
@@ -92,7 +92,7 @@
     line-height: 72px;
     color: #1D1DD8;
 }
-#main-container{
+#main-container-10123{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -103,28 +103,28 @@
     border-radius: 13px;
     padding: 2%;
 }
-#image-container{
+#image-container-10234{
     display: flex;
     flex-direction: row;
     gap: 2%;
     align-items: center;
 }
-#text-container{
+#text-container-10123{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     flex-wrap: wrap;
 
 }
-#text-container > h4{
+#text-container-10123 > h4{
 margin-top: -3px
 }
 
-#img-self{
+#img-self-10123{
 width: 8%;
 height: 4%;
 }
-#role{
+#role-10123{
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
@@ -132,7 +132,7 @@ height: 4%;
     line-height: 24px;
     color: #282828;
 }
-#name{
+#name-10123{
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 500;
@@ -140,7 +140,7 @@ height: 4%;
     line-height: 32px;
 }
 
-#text-wrap{
+#text-wrap-10123{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -152,37 +152,22 @@ height: 4%;
     font-size: 14px;
     line-height: 24px;
 }
-#question-bold{
+#question-bold-10123{
  font-weight: bolder;
 }
-#cont{
+#cont-10123{
     width: 90%;
 }
-#mcont{
+#mcont-10123{
     display: none;
 }
 
 @media  screen and (min-width:600px) {
-    #img{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 100%;
-        justify-content: center;
-          gap: 4%;
-       
-        
-    }
-    #image{
-        width: 90%;
-        height: auto;
-        display: flex;
-        margin-bottom: 5%;
-    }
+    
 }
 @media screen and (max-width:600px) {
    
-    #first-h1 > h1{
+    #second-10123 > h1{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -200,11 +185,11 @@ height: 4%;
         padding: 3%;
     
     }
-    #img-self{
+    #img-self-10123{
         width: 15%;
         height: 10%;
         }
-        #image-container{
+        #image-container-10234{
             display: flex;
             flex-direction: row;
             gap: 5%;
@@ -215,16 +200,8 @@ height: 4%;
             height: 100%;
             width: 100%;
         }
-        #text-container{
-            /* display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            flex-wrap: wrap;
-            height: 20px;
-            width: 70%; */
-        
-        }
-        #role{
+       
+        #role-10123{
             font-family: 'Rubik';
             font-style: normal;
             font-weight: 400;
@@ -232,7 +209,7 @@ height: 4%;
             line-height: 15px;
             color: #282828;
         }
-        #name{
+        #name-10123{
             font-family: 'Rubik';
             font-style: normal;
             font-weight: 500;
@@ -240,14 +217,14 @@ height: 4%;
             line-height: 15px;
         }
        
-    #mcont{
+    #mcont-10123{
         display: block;
         width: 90%;
     }
-    #cont{
+    #cont-10123{
         display: none; 
     }
-    #main-container{
+    #main-container-10123{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
